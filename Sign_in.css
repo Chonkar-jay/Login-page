@@ -1,0 +1,106 @@
+.for_Page_Background
+{
+	background-color:pink;
+	background-image: linear-gradient(to right, darkviolet, pink);
+
+}
+.for_Main_Box
+{
+	
+	/* box-shadow: 10px 10px 10px;*/  
+	height: 50%;
+	width: 40%;
+	box-sizing: border-box;
+	background-color: white;
+	border-radius: 5px;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	margin: 5%;
+}
+.main_Box_Content
+{
+	margin
+}
+.header_For_Login
+{
+  flex-wrap:wrap; 
+}
+.flex_Container
+{
+	display: inline-flex; 
+}
+.left_Login_Option
+{
+	background-image: linear-gradient(to right,darkviolet, pink);
+	color: white;
+	padding:10px;
+	border-radius: 5px;
+	min-width: 50%;
+	display: inline-block;
+	margin: 0px;
+	text-decoration: none;
+	
+}
+.right_Signup_Option
+{
+	background-color: white;
+	color: black;
+	padding:10px;
+	border-radius: 5px;
+	min-width: 50%;
+	display:inline-block;
+	margin: 0px;
+	text-decoration: none;
+
+}
+.email_Container
+{
+	margin-top: 25px;
+	
+}
+input[type=text]
+{
+	padding: 7px 7px;
+}
+.password_Container
+{
+	margin-top: 20px;
+}
+input[type=password]
+{
+	padding: 7px 7px;
+}
+.for_Forget_Pass_inlogin
+{
+	color: violet;
+	margin-top: 2px;
+	margin-bottom: 20px;
+	font-size: 15px;
+}
+a[href]
+{
+	text-decoration: none;
+}
+
+.login_Button
+{
+	background-image: linear-gradient(to right,darkviolet, pink);
+	color: white;
+	padding:10px;
+	border-radius: 5px;
+	min-width: 70%;
+	display: block;
+	margin: 0px;
+	text-decoration: none;
+}
+.footer_For_Login
+{
+	margin-top:20px;
+	 
+}
+.footer_For_Login a[href]
+{
+	text-decoration: none;
+	color: violet;
+}
